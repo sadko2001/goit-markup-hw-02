@@ -1,0 +1,259 @@
+:root {
+  --white-background-color: #ffffff;
+  --dark-color: #2e2f42;
+  --text-color: #434455;
+  --primary-brand-color: #4d5ae5;
+  --pressed-state-color: #404bbf;
+  --light-color: #f4f4fd;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+}
+
+/*----------HEADER-------- */
+
+.header-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--dark-color);
+
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.header-logo span {
+  color: var(--primary-brand-color);
+}
+
+.header-menu-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--dark-color);
+
+  letter-spacing: 0.02em;
+}
+
+.header-menu-link:is(:hover, :focus) {
+  color: var(--pressed-state-color);
+}
+
+.header-address-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text-color);
+
+  letter-spacing: 0.02em;
+}
+
+.header-address-link:hover {
+  color: var(--pressed-state-color);
+}
+
+.header-address-link:focus {
+  color: var(--pressed-state-color);
+}
+
+/*----------HERO--------- */
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  color: var(--white-background-color);
+  background-color: var(--dark-color);
+
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.hero-btn {
+  font-family: inherit;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--white-background-color);
+  background-color: var(--primary-brand-color);
+
+  align-items: center;
+  letter-spacing: 0.04em;
+}
+
+.hero-btn:is(:hover, :focus) {
+  background-color: var(--pressed-state-color);
+  cursor: pointer;
+}
+
+/*----------ADVANTAGES-------- */
+
+.advantages {
+}
+.advantages-list {
+}
+
+.advantages-item {
+}
+
+.advantages-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--dark-color);
+
+  letter-spacing: 0.02em;
+}
+.advantages-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text-color);
+
+  letter-spacing: 0.02em;
+}
+
+/*----------SERVICES-------- */
+
+.services {
+}
+
+.services-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--dark-color);
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.services-list {
+}
+
+.services-item {
+}
+
+/*----------TEAM-------- */
+
+.team {
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--dark-color);
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.team-list {
+}
+
+.team-item {
+}
+
+.team-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--dark-color);
+
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text-color);
+
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+/*----------FOOTER-------- */
+
+.footer {
+}
+
+.footer-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--light-color);
+  background-color: var(--dark-color);
+
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.footer-logo span {
+  color: var(--primary-brand-color);
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--light-color);
+  background-color: var(--dark-color);
+
+  letter-spacing: 0.02em;
+}
+
+/*TODO----------PORTFOLIO-------- */
+
+.projects-btn-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--primary-brand-color);
+  background-color: var(--light-color);
+
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+
+.projects-btn-text:is(:hover, :focus) {
+  color: var(--white-background-color);
+  background-color: var(--pressed-state-color);
+  cursor: pointer;
+}
+
+.projects-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--dark-color);
+
+  letter-spacing: 0.02em;
+}
+
+.projects-item-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text-color);
+
+  letter-spacing: 0.02em;
+}
